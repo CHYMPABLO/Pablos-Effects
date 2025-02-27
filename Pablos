@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #ffffff;
+    --accent-color: #ff5733;
+    --text-color: #222;
+    --font: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.project {
+    border: 2px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
