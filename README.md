@@ -3,5 +3,3 @@ At Pablo’s Effects, we bring visions to life with cutting-edge event productio
 Beyond event production, we specialize in branding and packaging, helping businesses create compelling visual identities. Whether you’re launching a new brand or elevating an existing one, our team delivers innovative and high-quality designs that stand out.
 
 At Pablo’s Effects, we don’t just plan events—we create unforgettable experiences.
-
-Would you like any adjustments or additions?
